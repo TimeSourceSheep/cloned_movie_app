@@ -3,9 +3,10 @@ import React from 'react';
 class App extends React.Component {
     state = {
         isLoading: true,
+        data: [],
     };
     componentDidMount(){
-        setTimeout(()=>{this.setState({isLoading:false})},6000);
+        //Here goes loading code
     }
     render(){
         const {isLoading}=this.state;
