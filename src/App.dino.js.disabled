@@ -1,0 +1,46 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function Dino({name,picture,level}){
+  return (
+    <div>
+      <h2>I just tamed {name}!!!</h2>
+      <h4>Dino Level: {level}</h4>
+      <img src={picture} alt={name} height={200} width={200} />
+    </div>
+  )
+}
+
+//alt={"Picture of a/an "+{name}+"."}
+//alt의 {name}이 String이 아닌 "[object Object]"라고 해석된다.
+
+const dinoITamed=[
+{
+  id: 1,
+  name:'Dilophosaurus',
+  imageurl: 'https://www.papo-france.com/690/dilophosaurus.jpg',
+  level: 4
+},
+{
+  id: 2,
+  name:'Compsognathus',
+  imageurl: 'https://www.papo-france.com/998-thickbox_default/compsognathus.jpg',
+  level: 3
+}
+];
+
+function App() {
+  return (
+   <div>
+     {dinoITamed.map(tamemap=>(<Dino key={tamemap.id} name={tamemap.name} picture={tamemap.imageurl} level={tamemap.level}/>))}
+   </div>
+  )
+}
+
+Dino.propTypes = {
+  name: PropTypes.string.isRequired,
+  picture: PropTypes.string.isRequired,
+  level: PropTypes.number,
+};
+
+export default App;

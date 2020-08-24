@@ -1,16 +1,16 @@
 import React from 'react';
 
-function Dino({fav}){
-  return <h3>I just tamed {fav}!!!</h3>
-}
-
-function App() {
-  return (
-   <div>
-     <h1>Hell was here.</h1>
-     <Dino fav="Parasaurolophus" />
-   </div>
-  )
+class App extends React.Component {
+    state = {
+        isLoading: true,
+    };
+    componentDidMount(){
+        setTimeout(()=>{this.setState({isLoading:false})},6000);
+    }
+    render(){
+        const {isLoading}=this.state;
+        return <div>{isLoading?'Loading...':'Loading Complete.'}</div>;
+    }
 }
 
 export default App;
