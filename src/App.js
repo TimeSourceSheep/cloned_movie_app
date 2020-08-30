@@ -14,4 +14,7 @@ class App extends React.Component {
     }
 }
 
+//Movie List Json URL
+//http://yts.mx/api/v2/list_movies.json
+
 export default App;

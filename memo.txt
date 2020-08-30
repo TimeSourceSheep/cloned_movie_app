@@ -1,0 +1,31 @@
+Nomadcoders Github: Movie App 2019
+https://github.com/nomadcoders/movie_app_2019
+
+태그(엘리먼트)의 종류와 자세한 설명
+mzl.la/2ROsFKk
+스타일
+mzl.la/3bl7Ml2 (l, I 다 시도해봐도 안 된다.)
+자바스크립트 문법 종류
+mzl.la/2RS5gYm
+
+React Deveopment Tools로 사이트 검사하기
+에어비앤비 www.airbnb.com
+npm www.npmjs.com
+넷플릭스 www.netflix.com
+스포티파이 open.spotify.com
+
+리액트 다운로드 횟수 살펴보기
+npmjs.com
+
+state of JS의 설문 조사 살펴보기
+2019.stateofjs.com
+
+니꼬샘이 만든 영화 앱 사이트
+nomadcoders.github.io/movie_app_2019
+
+Movie List Json URL
+http://yts.mx/api/v2/list_movies.json
+
+Alt Movie api
+https://github.com/serranoarevalo/yts-proxy
+
