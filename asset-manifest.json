@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cloned_Movie_App_CodeSandbox/static/css/main.7a552768.chunk.css",
+    "main.js": "/Cloned_Movie_App_CodeSandbox/static/js/main.35afad8d.chunk.js",
+    "main.js.map": "/Cloned_Movie_App_CodeSandbox/static/js/main.35afad8d.chunk.js.map",
+    "runtime-main.js": "/Cloned_Movie_App_CodeSandbox/static/js/runtime-main.3a624c3c.js",
+    "runtime-main.js.map": "/Cloned_Movie_App_CodeSandbox/static/js/runtime-main.3a624c3c.js.map",
+    "static/js/2.2be37faa.chunk.js": "/Cloned_Movie_App_CodeSandbox/static/js/2.2be37faa.chunk.js",
+    "static/js/2.2be37faa.chunk.js.map": "/Cloned_Movie_App_CodeSandbox/static/js/2.2be37faa.chunk.js.map",
+    "index.html": "/Cloned_Movie_App_CodeSandbox/index.html",
+    "precache-manifest.d980dc051db12a43ed7cb4d26f7e0a20.js": "/Cloned_Movie_App_CodeSandbox/precache-manifest.d980dc051db12a43ed7cb4d26f7e0a20.js",
+    "service-worker.js": "/Cloned_Movie_App_CodeSandbox/service-worker.js",
+    "static/css/main.7a552768.chunk.css.map": "/Cloned_Movie_App_CodeSandbox/static/css/main.7a552768.chunk.css.map",
+    "static/js/2.2be37faa.chunk.js.LICENSE.txt": "/Cloned_Movie_App_CodeSandbox/static/js/2.2be37faa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a624c3c.js",
+    "static/js/2.2be37faa.chunk.js",
+    "static/css/main.7a552768.chunk.css",
+    "static/js/main.35afad8d.chunk.js"
+  ]
+}
