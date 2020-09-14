@@ -1,7 +1,0 @@
-import React from 'react';
-
-function Hell(){
-    return <h3>You're in hell.</h3>
-}
-
-export default Hell;

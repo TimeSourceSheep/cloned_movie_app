@@ -1,0 +1,11 @@
+clever-wind-vmz42
+serene-bartik-kd0e2
+
+
+
+class App extends React.Component {
+여기서 Component 대신 component 라고 썼다가 "Super expression must either be null or a function" 오류로 고생함.
+
+
+예시 영화앱
+dribbble.com/shots/2442798-Movie-Application
